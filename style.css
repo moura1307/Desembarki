@@ -1,7 +1,25 @@
+::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+ }
+
 html {
-        overflow-x: hidden
+        overflow-x: hidden;
+}
+a {
+        text-decoration: none !important;
 }
 
 .navbar-brand-img:hover {
         opacity: 90%;
+}
+
+#card-prod {
+        transition: all .5s ease; /* back to normal */
+}
+#card-prod:hover{
+        transform: translate3D(0,-1px,0) scale(1.03);
+        transition: all .4s ease; /* zoom in */
 }
