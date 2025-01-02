@@ -20,6 +20,12 @@ html {
 a {
         text-decoration: none !important;
 }
+input {
+        outline: none;
+        border: none;
+        outline-color: initial;
+        border-color: initial;
+}
 
 .navbar-brand-img:hover {
         opacity: 90%;
@@ -44,6 +50,51 @@ a {
 /*Contact Page*/
 #text-main {
         color: white;
-        font-family: Arial Black,Arial Bold,sans-serif;
+        font-family: sans-serif;
         padding: 135px;
+}
+
+.label-input100 {
+        font-family: Montserrat-SemiBold;
+        font-size: 10px;
+        color: #393939;
+        line-height: 1.5;
+        text-transform: uppercase;
+
+}
+.input100 {
+        background-image: initial;
+        background-color: initial;
+        display: block;
+        width: 100%;
+        background: 0 0;
+        font-size: 18px;
+        line-height: 1.2;
+        padding-right: 15px
+}
+textarea.input100 {
+        min-height: 120px;
+        padding-top: 9px;
+        padding-bottom: 13px;
+        outline: none;
+        border: none;
+        outline-color: initial;
+        border-color: initial;
+}
+.wrap-contact100 {
+        background-image: initial;
+        background-color: rgb(25, 27, 28);
+        width: 920px;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 62px 55px 90px;
+}
+
+.rs1-wrap-input100 {
+        width: calc((100% - 30px) / 2);
+
+}
+.ep {
+        display: flex;
 }
